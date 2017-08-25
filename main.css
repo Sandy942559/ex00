@@ -1,0 +1,37 @@
+blockquote { color: blue ; }
+h1 { color: rgba(0,0,0,0); }
+td[rowspan="2"]{ color: #fff; }
+strong { color: #00f; color: #fff;}
+ p { color: navy } 
+
+
+blockquote { 
+  color: #fff ;
+  background-color: lightblue;
+}
+
+
+/*字體放越前面,優先權最高，arial字體幾乎每台電腦都有,放最後方,當作下下策最後一個可用字體*/
+div { 
+  font-family: DFKai-SB, BiauKai, arial;
+}
+
+
+td[colspan="2"] {
+    font-weight: 900;
+}
+
+
+td[rowspan="2"] {
+    color: red;
+    text-align:  justify;
+}
+
+td[rowspan="2"] {
+   letter-spacing: 1em;
+}
+
+p{
+    line-height: 30px;
+}
+
